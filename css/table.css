@@ -1,0 +1,157 @@
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tbl th, .tbl td {
+    padding: 10px;
+    border: 1px solid #ff0000;
+  }
+  
+  .tbl tr:hover {
+    background-color: #fbd4d4;
+  }
+  #myBtn {
+      display: none; /* Ẩn nút ban đầu */
+      position: fixed; /* Nút di chuyển cố định */
+      bottom: 20px; /* Khoảng cách từ nút đến bottom của trình duyệt */
+      right: 30px; /* Khoảng cách từ nút đến right của trình duyệt */
+      z-index: 99; /* Hiển thị trên các phần tử khác */
+      border: none; /* Không có đường viền */
+      outline: none; /* Không có đường viền nổi */
+      background-color: #555; /* Màu nền của nút */
+      color: white; /* Màu chữ của nút */
+      cursor: pointer; /* Thay đổi con trỏ chuột khi di chuột qua nút */
+      padding: 15px; /* Kích thước nút */
+      border-radius: 10px; /* Bo tròn góc của nút */
+      font-size: 18px; /* Cỡ chữ của nút */
+      }
+  
+  #myBtn:hover {
+  background-color: black; /* Màu nền của nút khi di chuột qua */
+  }
+  .select-box {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .select-box:hover {
+  border-color: #6c757d;
+  }
+  
+  .select-box:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  
+  .select-box option {
+  font-weight:normal;
+  }
+  input[type="date"] {
+    /* Thêm các thuộc tính CSS của bạn ở đây */
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+  }
+  .form-search{
+      width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    
+    margin-left: 5px;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .sidebar-submenu {
+      display: none;
+  }
+  
+  .sidebar-sub-toggle {
+      cursor: pointer;
+  }
+  
+  .sidebar-sub-toggle:hover {
+      color: #fff;
+  }
+  
+  .sidebar-sub-toggle .sidebar-collapse-icon {
+      font-size: 12px;
+      margin-left: 10px;
+  }
+  
+  .sidebar-sub:hover > .sidebar-submenu {
+      display: block;
+  }
+  
+  .sidebar-input {
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      
+      font-size: 14px;
+  }
+  
+  .sidebar-btn {
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      background-color: #28a745;
+      border: none;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  
+  .sidebar-btn:hover {
+      background-color: #218838;
+  }
+  
+  button#myBtn {
+    opacity: 0.6; /* Độ mờ 50% */
+    background-color: #cc4e4e; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none; /* Loại bỏ viền */
+    width: 40px; /* Chiều rộng */
+    height: 40px; /* Chiều cao */
+    font-size: 24px; /* Kích thước chữ */
+    position: fixed; /* Vị trí cố định */
+    bottom: 20px; /* Khoảng cách từ dưới lên */
+    right: 20px; /* Khoảng cách từ phải qua */
+    cursor: pointer; /* Con trỏ chuột thành hình tay */
+    z-index: 9999; /* Độ ưu tiên hiển thị */
+    display: flex; /* Hiển thị theo kiểu flexbox */
+    align-items: center; /* Căn chữ theo chiều dọc */
+    justify-content: center; /* Căn chữ theo chiều ngang */
+    transition: opacity 0.3s ease; /* Thời gian và hiệu ứng chuyển đổi */
+  }
+  
+  button#myBtn:hover {
+    opacity: 1; /* Độ mờ 100% khi hover */
+  }
+  
